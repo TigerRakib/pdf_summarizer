@@ -1,5 +1,5 @@
 
-# 🧾 ADT-1 PDF Parser & Summarizer using Python + Ollama
+# 🧾 ADT-1 PDF Parser & Summarizer using Python + LLM
 
 This python script extracts structured data and embedded attachments from a PDF which is ADT-1 (filed under the Companies Act) form, summarizes it using a local LLM (via Ollama), and saves both Json_Data and human-friendly text summaries.
 
