@@ -113,7 +113,8 @@ Summarize the following document and return a two sentenced passage:{combined}
 
 
 #Create a dictionary by field and value of the ADT-1 form using widgets
-doc=fitz.open("Form ADT-1-29092023_signed.pdf")
+file_path="Form ADT-1-29092023_signed.pdf"
+doc=fitz.open(file_path)
 form_data={}
 for page_number in range(doc.page_count):
     page=doc[page_number]
